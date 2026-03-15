@@ -411,7 +411,7 @@ def main():
 
     # ── RIGHT COLUMN: Storyboard Image ────────────────────────────────────────
     with right_col:
-        storyboard_path = "storyboard.png"
+        storyboard_path = "Storyboard.png"
         if os.path.exists(storyboard_path):
             with open(storyboard_path, "rb") as sb_file:
                 sb_b64 = base64.b64encode(sb_file.read()).decode("utf-8")
